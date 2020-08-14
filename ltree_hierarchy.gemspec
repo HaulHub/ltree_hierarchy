@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency "pg", "~> 1.2"
 
-  s.add_dependency "activerecord", "~> 5.1"
+  s.add_dependency "activerecord", ">= 5.1.7"
 
   s.add_development_dependency "minitest"
   s.add_development_dependency "rake"
